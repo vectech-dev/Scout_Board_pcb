@@ -1,0 +1,61 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1e474e69-703f-468a-b656-74c58d9d51b8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 23.622 24.638) (size 40.132 30.226) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 279df6e1-d31e-4749-98df-4867127affcd)
+    (property "Sheetname" "esp_module" (at 23.622 23.9264 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp_module.kicad_sch" (at 23.622 55.4486 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Scout_Board"
+        (path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/0f4ab782-3a9f-494a-893b-baa6f704c497" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 23.876 84.074) (size 40.132 37.084) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7f38b1b8-e3fe-44cb-a338-7a6a16c4ea1d)
+    (property "Sheetname" "cp2102" (at 23.876 83.3624 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cp2102.kicad_sch" (at 23.876 121.7426 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Scout_Board"
+        (path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/0f4ab782-3a9f-494a-893b-baa6f704c497" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 185.928 123.444) (size 49.784 31.496) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c9e6cb7f-6817-4d90-96f9-4f3748cbe530)
+    (property "Sheetname" "USB" (at 185.928 122.7324 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 185.928 155.5246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Scout_Board"
+        (path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/0f4ab782-3a9f-494a-893b-baa6f704c497" (page "9"))
+      )
+    )
+  )
+)
