@@ -338,36 +338,12 @@
       ""
     ],
     [
-      "f69c0108-1493-406f-9c14-edf38ee5c388",
-      "BBAI"
-    ],
-    [
       "9062b26d-6848-4e9b-a8f0-87e6a8c09cf4",
       "Power_Managment"
     ],
     [
-      "0f4ab782-3a9f-494a-893b-baa6f704c497",
-      "ESP32"
-    ],
-    [
       "eb34848c-1dd2-417e-9662-2c4c652cd1f9",
       "Connectors"
-    ],
-    [
-      "c491cb5d-4d57-45d7-8ada-f95ddb438bf9",
-      "Motor driver"
-    ],
-    [
-      "279df6e1-d31e-4749-98df-4867127affcd",
-      "esp_module"
-    ],
-    [
-      "7f38b1b8-e3fe-44cb-a338-7a6a16c4ea1d",
-      "cp2102"
-    ],
-    [
-      "c9e6cb7f-6817-4d90-96f9-4f3748cbe530",
-      "USB"
     ]
   ],
   "text_variables": {}
