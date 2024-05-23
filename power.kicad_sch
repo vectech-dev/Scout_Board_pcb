@@ -1140,7 +1140,7 @@
     (property "Value" "RAPC722X" (at 87.63 27.305 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RAPC722X:SWITCHCRAFT_RAPC722X" (at 87.63 31.75 0)
+    (property "Footprint" "Downloaded_footprints:SWITCHCRAFT_RAPC722X" (at 87.63 31.75 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 87.63 31.75 0)
