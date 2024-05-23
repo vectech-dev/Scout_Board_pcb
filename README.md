@@ -1,6 +1,6 @@
 # Pinout for Scout Board
 
-##Motor Control
+## Motor Control
 
 * In1 - GPIO_21/J3_18
 * In2 - GPIO_35/J3_13
