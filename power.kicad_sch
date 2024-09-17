@@ -2278,7 +2278,7 @@
 		(uuid "508f0a8f-47e7-48cd-894c-656de5379f06")
 	)
 	(junction
-		(at 95.25 29.21)
+		(at 223.52 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5142fa77-bf1a-416e-94bd-0f863c446174")
@@ -2302,10 +2302,16 @@
 		(uuid "7a3ca988-ba48-437a-a994-7cd417829dc0")
 	)
 	(junction
-		(at 95.25 33.02)
+		(at 223.52 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f08d04d-f71d-458d-b4d2-d092e814f9d8")
+	)
+	(junction
+		(at 261.62 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ac7469-e66c-48ae-8202-624d06eb6b05")
 	)
 	(junction
 		(at 97.79 88.9)
@@ -2338,7 +2344,7 @@
 		(uuid "b6fbabc1-4872-406a-ac82-0ed2d3aee6f8")
 	)
 	(junction
-		(at 95.25 34.29)
+		(at 223.52 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdb8889f-b712-4ed6-9b24-c209d17a40cd")
@@ -2459,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 29.21) (xy 99.06 29.21)
+			(xy 223.52 30.48) (xy 234.95 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2499,6 +2505,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 43.18) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275b5727-5185-4437-91f5-5726c7478be4")
+	)
+	(wire
+		(pts
 			(xy 111.76 49.53) (xy 97.79 49.53)
 		)
 		(stroke
@@ -2516,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "2baffc52-f844-412a-8de5-1c6ffadd5b12")
+	)
+	(wire
+		(pts
+			(xy 261.62 53.34) (xy 261.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314f1085-222c-4668-8f6a-7799de9b339c")
 	)
 	(wire
 		(pts
@@ -2669,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 95.25 34.29)
+			(xy 223.52 34.29) (xy 223.52 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2696,6 +2722,16 @@
 			(type default)
 		)
 		(uuid "798a9122-baaf-4ae9-8a12-a31073f778d7")
+	)
+	(wire
+		(pts
+			(xy 261.62 50.8) (xy 256.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d05bf61-bdfb-47e6-a221-d7bb0c64b2d8")
 	)
 	(wire
 		(pts
@@ -2769,13 +2805,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 105.41 33.02)
+			(xy 223.52 34.29) (xy 241.3 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98a3be6d-a7fa-443b-9cf6-e2f96a5ba8ad")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 261.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b607b28-9421-4321-8219-a4d6ab8cea84")
 	)
 	(wire
 		(pts
@@ -2849,6 +2895,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 53.34) (xy 261.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33abb1a-c1f7-4ec7-a5b9-bca040aca8be")
+	)
+	(wire
+		(pts
 			(xy 43.18 97.79) (xy 60.96 97.79)
 		)
 		(stroke
@@ -2886,6 +2942,16 @@
 			(type default)
 		)
 		(uuid "d2b0a6d2-0da9-4e4a-a1f9-78289dcd5063")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 256.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85d9644-b86c-4b8f-875c-3566ad351e69")
 	)
 	(wire
 		(pts
@@ -2969,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 31.75) (xy 95.25 33.02)
+			(xy 223.52 33.02) (xy 223.52 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3208,7 @@
 	)
 	(symbol
 		(lib_id "RAPC722X:RAPC722X")
-		(at 87.63 31.75 0)
+		(at 215.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3151,15 +3217,15 @@
 		(fields_autoplaced yes)
 		(uuid "0f4126e7-7026-495d-acc5-956bdd6cc5f3")
 		(property "Reference" "J3"
-			(at 87.63 24.765 0)
+			(at 215.9 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RAPC722X"
-			(at 87.63 27.305 0)
+		(property "Value" "IN"
+			(at 215.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3233,7 @@
 			)
 		)
 		(property "Footprint" "Downloaded_footprints:SWITCHCRAFT_RAPC722X"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3252,7 @@
 			)
 		)
 		(property "Description" "\nConn AV Power Jack Mini 2.0mmPinDia RtAngle Thru-hole forS760 S765Plug | Switchcraft RAPC722X\n"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3262,7 @@
 			)
 		)
 		(property "MF" "Switchcraft Inc."
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3272,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Power Barrel Connector Jack 2.00mm ID (0.079), 5.50mm OD (0.217) Through Hole, Right Angle"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3282,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3292,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3302,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3312,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RAPC722X/Switchcraft+Inc./view-part/?ref=eda"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3322,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3332,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RAPC722X/Switchcraft+Inc./view-part/?ref=snap"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3342,7 @@
 			)
 		)
 		(property "MP" "RAPC722X"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3352,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=235468&manufacturer=Switchcraft Inc.&part_name=RAPC722X&search_term=None"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3362,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3372,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3382,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/RAPC722X/?ref=eda"
-			(at 87.63 31.75 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3490,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 29.21 0)
+		(at 234.95 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3433,7 +3499,7 @@
 		(fields_autoplaced yes)
 		(uuid "27a26db2-819e-46e5-b3ce-9cbf72eee51f")
 		(property "Reference" "#FLG02"
-			(at 99.06 27.305 0)
+			(at 234.95 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3508,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 24.13 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 29.21 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 29.21 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 29.21 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 34.29 0)
+		(at 223.52 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4241,7 +4307,7 @@
 		(fields_autoplaced yes)
 		(uuid "85ea1f22-5c02-4819-a0c1-cac186d04c2c")
 		(property "Reference" "#PWR035"
-			(at 95.25 40.64 0)
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 38.735 0)
+			(at 223.52 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 34.29 0)
+			(at 223.52 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 34.29 0)
+			(at 223.52 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 34.29 0)
+			(at 223.52 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4718,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 95.25 29.21 0)
+		(at 223.52 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4661,7 +4727,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac712159-0890-4da9-96af-afc50af0a346")
 		(property "Reference" "#PWR034"
-			(at 95.25 33.02 0)
+			(at 223.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4736,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 95.25 24.765 0)
+			(at 223.52 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 29.21 0)
+			(at 223.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 29.21 0)
+			(at 223.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 29.21 0)
+			(at 223.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,6 +4856,138 @@
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/3c8827f7-ffdc-4c16-9a22-f018186c4aab"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 261.62 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7da13a-dfd5-4b08-8654-46ef635482b7")
+		(property "Reference" "#PWR04"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 261.62 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d8d63ac-b0ef-484b-965a-95d58f6cc2be")
+		)
+		(instances
+			(project "Scout_Board"
+				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/3c8827f7-ffdc-4c16-9a22-f018186c4aab"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa3ddd3-9ac7-4b17-90cf-99ef72e23099")
+		(property "Reference" "#PWR08"
+			(at 261.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7463457-634d-46f0-8b86-b75cd80a1e85")
+		)
+		(instances
+			(project "Scout_Board"
+				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/3c8827f7-ffdc-4c16-9a22-f018186c4aab"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4922,6 +5120,209 @@
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/3c8827f7-ffdc-4c16-9a22-f018186c4aab"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RAPC722X:RAPC722X")
+		(at 248.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c470fe87-5300-4525-b3d4-0beeb0edbb96")
+		(property "Reference" "J8"
+			(at 248.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TopFan"
+			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloaded_footprints:SWITCHCRAFT_RAPC722X"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\nConn AV Power Jack Mini 2.0mmPinDia RtAngle Thru-hole forS760 S765Plug | Switchcraft RAPC722X\n"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Power Barrel Connector Jack 2.00mm ID (0.079), 5.50mm OD (0.217) Through Hole, Right Angle"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RAPC722X/Switchcraft+Inc./view-part/?ref=eda"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RAPC722X/Switchcraft+Inc./view-part/?ref=snap"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RAPC722X"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=235468&manufacturer=Switchcraft Inc.&part_name=RAPC722X&search_term=None"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/RAPC722X/?ref=eda"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd4dc6cc-a17a-462a-bf33-67aa7ef516b9")
+		)
+		(pin "1"
+			(uuid "9c6417d1-7119-4bf1-ad51-1c8ef04c032d")
+		)
+		(pin "3"
+			(uuid "635706e1-6bb7-4c1b-987c-51cd3e8385dd")
+		)
+		(instances
+			(project "Scout_Board"
+				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357/3c8827f7-ffdc-4c16-9a22-f018186c4aab"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5412,7 +5813,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 105.41 33.02 0)
+		(at 241.3 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5421,7 +5822,7 @@
 		(fields_autoplaced yes)
 		(uuid "e73b8ec4-0fa1-4ec1-ae86-197de3c01ed3")
 		(property "Reference" "#FLG03"
-			(at 105.41 31.115 0)
+			(at 241.3 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5831,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 105.41 27.94 0)
+			(at 241.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 33.02 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 33.02 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 33.02 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
