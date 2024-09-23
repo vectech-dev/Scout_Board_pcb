@@ -2898,7 +2898,7 @@
 	)
 	(global_label "FlipButton"
 		(shape input)
-		(at 223.52 152.4 180)
+		(at 224.79 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2908,7 +2908,7 @@
 		)
 		(uuid "6086cfba-fbcd-47d0-be76-a0dc620a8a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8588 152.4 0)
+			(at 212.1288 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 	)
 	(global_label "CaptureButton"
 		(shape input)
-		(at 223.52 154.94 180)
+		(at 224.79 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3084,7 +3084,7 @@
 		)
 		(uuid "7b378851-29d8-4f79-8227-05f83f98f71e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.0489 154.94 0)
+			(at 208.3189 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2af6e30c-91b9-4f24-a754-6864772770f4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 		(instances
 			(project ""
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "485ebb8c-7d6f-4cd6-b445-9cf04d85972a")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 185.0741 30.48 0)
 			(effects
 				(font
@@ -3662,7 +3662,7 @@
 		(instances
 			(project ""
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3678,7 +3678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eecf425-d4f1-47a6-ad00-21385c3521f1")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR03"
 			(at 156.21 121.92 0)
 			(effects
 				(font
@@ -3728,7 +3728,7 @@
 		(instances
 			(project ""
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR059")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3744,7 +3744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "603ff74f-e979-467a-af18-3448537f7ccc")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -3794,7 +3794,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3810,7 +3810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cd57ca0-fa01-466c-addb-a5dd35702e6d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR07"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR016")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3876,7 +3876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "703573a5-864b-456e-ae27-8363c73fd493")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 173.99 77.47 0)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3942,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5bd6916-5fee-424c-82f6-249f228fc3ba")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -4242,7 +4242,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b744f780-1cb4-4608-a0cd-9b0626125bd5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -4308,7 +4308,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a9aea0-6f35-452f-92d8-c3c428c9ec15")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -4375,7 +4375,7 @@
 		(instances
 			(project ""
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4391,7 +4391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddeb9122-863b-4389-ba4d-329bbdbca8de")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 175.26 24.13 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 		(instances
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4518,7 +4518,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 73.66)
+		(at 21.59 71.12)
 		(size 46.99 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -4530,7 +4530,7 @@
 		)
 		(uuid "1c50300d-eb18-4ae0-a965-4e91fdf6ec14")
 		(property "Sheetname" "Connections"
-			(at 63.5 72.9484 0)
+			(at 21.59 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4539,7 @@
 			)
 		)
 		(property "Sheetfile" "connections.kicad_sch"
-			(at 63.5 105.9946 0)
+			(at 21.59 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4556,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 31.75)
+		(at 20.32 31.75)
 		(size 31.75 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -4568,7 +4568,7 @@
 		)
 		(uuid "3c8827f7-ffdc-4c16-9a22-f018186c4aab")
 		(property "Sheetname" "Power"
-			(at 31.75 31.0384 0)
+			(at 20.32 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4577,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 31.75 55.1946 0)
+			(at 20.32 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,6 +4589,53 @@
 			(project "Scout_Board"
 				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 35.56)
+		(size 21.59 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beec0241-a17d-4f9d-8cef-5e4a900fcdc6")
+		(property "Sheetname" "BBAI"
+			(at 81.28 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bbai.kicad_sch"
+			(at 81.28 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Scout_Board"
+				(path "/e58a9779-147f-4c0c-a745-6e9bc8ec0357"
+					(page "4")
 				)
 			)
 		)
