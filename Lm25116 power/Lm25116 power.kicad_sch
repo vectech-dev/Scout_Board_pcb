@@ -132,7 +132,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U3"
 				(at 33.02 10.16 0)
 				(effects
 					(font
@@ -140,7 +140,7 @@
 					)
 				)
 			)
-			(property "Value" "LM25116MHX/NOPB"
+			(property "Value" "LM25116MH"
 				(at 33.02 7.62 0)
 				(effects
 					(font
@@ -148,7 +148,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MXA20A_TEX"
+			(property "Footprint" "LM25116MHX_NOPB:MXA20A_TEX-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,6 +169,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "-"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +261,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 7.62)
 					(name "VIN"
@@ -342,7 +351,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 66.04 -17.78 180)
 					(length 7.62)
 					(name "PGND"
@@ -378,7 +387,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 66.04 -12.7 180)
 					(length 7.62)
 					(name "VCC"
@@ -396,7 +405,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 66.04 -10.16 180)
 					(length 7.62)
 					(name "VCCX"
@@ -468,7 +477,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 66.04 -2.54 180)
 					(length 7.62)
 					(name "SW"
@@ -486,7 +495,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 66.04 0 180)
 					(length 7.62)
 					(name "EP"
@@ -558,7 +567,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "AGND"
@@ -2901,6 +2910,12 @@
 		(uuid "baa640b0-582a-4402-8756-5c1a9be457bf")
 	)
 	(junction
+		(at 271.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5d06ba-44bb-4ca9-8495-0a0d628e6ffe")
+	)
+	(junction
 		(at 60.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3420,6 +3435,16 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "2db028db-d436-4983-ad41-029ba42171c5")
+	)
+	(wire
+		(pts
+			(xy 271.78 85.09) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "2ee96aed-9290-4227-a9f5-f3b0544f8e8f")
 	)
 	(wire
@@ -3651,6 +3676,16 @@
 			(type default)
 		)
 		(uuid "56181498-2312-423c-87e1-7184e1fd9427")
+	)
+	(wire
+		(pts
+			(xy 279.4 86.36) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56449d0f-3c59-420c-ad49-209e12e0184f")
 	)
 	(wire
 		(pts
@@ -4951,6 +4986,16 @@
 			(type default)
 		)
 		(uuid "dd581723-0171-49d7-93b1-f0fbee879914")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2ae4e3-d8be-42ee-998a-50a41e54c4a5")
 	)
 	(wire
 		(pts
@@ -6743,7 +6788,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 271.78 88.9 0)
+		(at 271.78 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6752,7 +6797,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a08f30d-280d-4fa4-9494-c662dcabda2a")
 		(property "Reference" "#PWR05"
-			(at 271.78 92.71 0)
+			(at 271.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6806,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 271.78 83.82 0)
+			(at 271.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 88.9 0)
+			(at 271.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 88.9 0)
+			(at 271.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.78 88.9 0)
+			(at 271.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,6 +7677,72 @@
 			(project "Lm25116 power"
 				(path "/31f273f7-9033-4854-9dd2-6b0faaf8ad00"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 279.4 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8523b6-8117-4765-9049-85d79df8ea82")
+		(property "Reference" "#FLG04"
+			(at 279.4 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 279.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1622ef2-1ff6-4eb9-b5f6-06a27a2421df")
+		)
+		(instances
+			(project ""
+				(path "/31f273f7-9033-4854-9dd2-6b0faaf8ad00"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
