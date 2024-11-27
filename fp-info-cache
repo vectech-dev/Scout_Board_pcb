@@ -1,4 +1,4 @@
-24500955491567577
+24511328425744570
 705530002
 CONN3_53-0002_MOL
 
@@ -54648,6 +54648,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom Library
+BBAI-P8
+
+
+0
+46
+46
+Custom Library
+BBAI-P9
+
+
+0
+50
+50
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -88932,8 +88946,15 @@ MOSFET_7DP-T1-GE3_VIS
 
 SI7850ADP-T1-GE3 
 0
+9
 8
-8
+SMD_BBAI_Power
+CON_436500212
+
+436500212 
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99910,6 +99931,27 @@ S2B-ZRLFSN
 0
 2
 2
+molex male
+70555-0037
+Molex C-Grid SL 3 pos RA through hole
+
+0
+3
+3
+smd-2pin molex
+CONN_15-91-3024_MOL
+
+15913024 
+0
+4
+4
+smd-3pin molex
+CONN_15-91-3034_MOL
+
+15913034 
+0
+5
+5
 trinamic-footprints
 20pin1,5x1-BOB
 

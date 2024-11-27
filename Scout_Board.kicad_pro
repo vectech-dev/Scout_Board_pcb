@@ -529,13 +529,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -746,6 +746,24 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -817,10 +835,6 @@
     [
       "beec0241-a17d-4f9d-8cef-5e4a900fcdc6",
       "BBAI"
-    ],
-    [
-      "325447fa-4ffc-4c0c-93f0-9c8e2bd95fde",
-      "LM25116"
     ]
   ],
   "text_variables": {}
