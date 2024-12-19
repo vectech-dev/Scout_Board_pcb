@@ -363,7 +363,6 @@
 		(path "/350ea4a5-ac5d-4a48-b3b8-767875af35a3")
 		(sheetname "Root")
 		(sheetfile "Scout_Board.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.03 -0.4)
 			(end -0.53 -0.9)
@@ -798,7 +797,7 @@
 		(path "/1c50300d-eb18-4ae0-a965-4e91fdf6ec14/982e4b44-1365-4e67-811d-37087268bdf1")
 		(sheetname "Connections")
 		(sheetfile "connections.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -3.29 20.45)
 			(end -3.29 -5.21)
@@ -2283,7 +2282,7 @@
 		(path "/beec0241-a17d-4f9d-8cef-5e4a900fcdc6/1ec63d17-4045-4d67-92e1-ed0d1568569c")
 		(sheetname "BBAI")
 		(sheetfile "bbai.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -2913,7 +2912,7 @@
 		(path "/3c8827f7-ffdc-4c16-9a22-f018186c4aab/53a55617-d1dc-4e16-bbfa-eed1b0af40c0")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_circle
 			(center -3.429 0)
 			(end -3.048 0)
@@ -3382,7 +3381,7 @@
 		(path "/1c50300d-eb18-4ae0-a965-4e91fdf6ec14/12d4b628-957e-4c02-8d41-954ddd6634c3")
 		(sheetname "Connections")
 		(sheetfile "connections.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -4016,7 +4015,7 @@
 		(path "/1c50300d-eb18-4ae0-a965-4e91fdf6ec14/ae368b44-945f-474d-b0c6-eb66ba46eafb")
 		(sheetname "Connections")
 		(sheetfile "connections.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -3.87 -1.33)
 			(end -3.87 8.95)
@@ -4538,7 +4537,7 @@
 		(path "/3c8827f7-ffdc-4c16-9a22-f018186c4aab/2f11c76e-8ec8-4628-99f9-93ff099dc98f")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -5198,7 +5197,7 @@
 		(path "/beec0241-a17d-4f9d-8cef-5e4a900fcdc6/b72aa03b-7d7d-4097-8d22-fca2b032e282")
 		(sheetname "BBAI")
 		(sheetfile "bbai.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -5850,7 +5849,7 @@
 		(path "/3c8827f7-ffdc-4c16-9a22-f018186c4aab/75848595-a6f9-4d26-9720-f69d19ecabc0")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -3.87 -1.33)
 			(end -3.87 11.49)
@@ -6393,7 +6392,7 @@
 		(path "/1c50300d-eb18-4ae0-a965-4e91fdf6ec14/6956a668-a7a5-4f75-84bd-d8891d92660f")
 		(sheetname "Connections")
 		(sheetfile "connections.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -9197,7 +9196,7 @@
 			)
 		)
 		(property "Footprint" "BSS138W_7_F:SOT-323_DIO"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ddf521c9-358b-4b85-a0ba-5cc6de9566f1")
@@ -9210,7 +9209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "caafd9ce-fee1-4c55-91c9-bed651b2bcfd")
@@ -9223,7 +9222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9398579f-558d-4c80-9dec-19c8abe8124b")
@@ -11962,7 +11961,7 @@
 		(path "/beec0241-a17d-4f9d-8cef-5e4a900fcdc6/f5bf8bd5-54a4-4db7-af22-c5058823db99")
 		(sheetname "BBAI")
 		(sheetfile "bbai.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_rect
 			(start 3.81 -62.23)
 			(end -1.27 -3.81)
@@ -14531,7 +14530,7 @@
 			)
 		)
 		(property "Footprint" "BSS138W_7_F:SOT-323_DIO"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b41790e2-d789-4b32-8cea-95993edd9606")
@@ -14544,7 +14543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "734a506f-bbb9-4c56-bff8-7f023806dfd7")
@@ -14557,7 +14556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d4e81bb7-cec5-4c38-92c5-8e3758d7a646")
@@ -18733,7 +18732,7 @@
 		(path "/beec0241-a17d-4f9d-8cef-5e4a900fcdc6/7586a6c3-6193-4743-90eb-2f30627229a3")
 		(sheetname "BBAI")
 		(sheetfile "bbai.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 3.81 -8.89)
 			(end -1.27 -8.89)
